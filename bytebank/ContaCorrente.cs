@@ -13,7 +13,6 @@ namespace bytebank
         public double saldo = 100;
 
         public string titular;
-
         public void Depositar(double valor)
         {
             saldo += valor;
