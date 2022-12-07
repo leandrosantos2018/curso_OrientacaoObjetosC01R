@@ -23,6 +23,10 @@ Console.WriteLine("Nome do Funcionario e: " + func.Nome);
 
 Console.WriteLine("A bonificação do salario é : R$"+ func.GettBonificacao());
 
+Console.WriteLine("Total de funcionario : QTd :" + Funcionario.TotalDeFuncinarios);
+
+
+
 GerenciadoDeBonificacao gerenciador = new GerenciadoDeBonificacao();
 
 
@@ -36,3 +40,5 @@ gerenciador.Registrar(func);
 gerenciador.Registrar(roberta);
 
 Console.WriteLine("total de bonificacoes " + gerenciador.TotalDeBonificacao);
+
+

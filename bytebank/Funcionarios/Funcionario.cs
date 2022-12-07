@@ -14,7 +14,9 @@ namespace bytebank_ADM.Funcionarios
 
         public double Salario { get; set; }
 
-        
+        public static int TotalDeFuncinarios { get; private set; }
+
+
 
         public virtual double GettBonificacao()
         {
@@ -22,6 +24,12 @@ namespace bytebank_ADM.Funcionarios
             return this.Salario * 0.10;
         }
 
+      
+        public Funcionario()
+        {
+            TotalDeFuncinarios++;
+
+        }
         
 
 
